@@ -1,0 +1,7 @@
+-------------------------------------------------------------------------------
+Test set: com.lambdatest.cucumber.ParallelChromeTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.009 s <<< FAILURE! - in com.lambdatest.cucumber.ParallelChromeTest
+initializationError(com.lambdatest.cucumber.ParallelChromeTest)  Time elapsed: 0.009 s  <<< ERROR!
+cucumber.runtime.DuplicateStepDefinitionException: Duplicate step definitions in com.lambdatest.cucumber.steps.lambdaTestDemoSteps.i_reach_the_URL() in file:/Users/tapan.khimani/eclipse-workspace/Android/Serenity-Selenium-Demo/target/test-classes/ and com.lambdatest.cucumber.steps.GoogleSearchSteps.i_reach_the_URL() in file:/Users/tapan.khimani/eclipse-workspace/Android/Serenity-Selenium-Demo/target/test-classes/
+

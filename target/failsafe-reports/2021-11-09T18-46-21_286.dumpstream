@@ -1,0 +1,72 @@
+# Created at 2021-11-09T18:46:21.648
+Java HotSpot(TM) 64-Bit Server VM warning: Ignoring option MaxPermSize; support was removed in 8.0
+
+# Created at 2021-11-09T18:46:21.649
+Java HotSpot(TM) 64-Bit Server VM warning: Ignoring option MaxPermSize; support was removed in 8.0
+
+# Created at 2021-11-09T18:46:21.650
+Java HotSpot(TM) 64-Bit Server VM warning: Ignoring option MaxPermSize; support was removed in 8.0
+
+# Created at 2021-11-09T18:46:21.650
+Java HotSpot(TM) 64-Bit Server VM warning: Ignoring option MaxPermSize; support was removed in 8.0
+
+# Created at 2021-11-09T18:46:23.439
+WARNING: An illegal reflective access operation has occurred
+
+# Created at 2021-11-09T18:46:23.441
+WARNING: Illegal reflective access by com.google.inject.internal.cglib.core.$ReflectUtils$1 (file:/Users/tapan.khimani/.m2/repository/com/google/inject/guice/4.2.2/guice-4.2.2.jar) to method java.lang.ClassLoader.defineClass(java.lang.String,byte[],int,int,java.security.ProtectionDomain)
+
+# Created at 2021-11-09T18:46:23.441
+WARNING: Please consider reporting this to the maintainers of com.google.inject.internal.cglib.core.$ReflectUtils$1
+
+# Created at 2021-11-09T18:46:23.441
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+
+# Created at 2021-11-09T18:46:23.442
+WARNING: All illegal access operations will be denied in a future release
+
+# Created at 2021-11-09T18:46:23.443
+WARNING: An illegal reflective access operation has occurred
+
+# Created at 2021-11-09T18:46:23.443
+WARNING: Illegal reflective access by com.google.inject.internal.cglib.core.$ReflectUtils$1 (file:/Users/tapan.khimani/.m2/repository/com/google/inject/guice/4.2.2/guice-4.2.2.jar) to method java.lang.ClassLoader.defineClass(java.lang.String,byte[],int,int,java.security.ProtectionDomain)
+
+# Created at 2021-11-09T18:46:23.443
+WARNING: Please consider reporting this to the maintainers of com.google.inject.internal.cglib.core.$ReflectUtils$1
+
+# Created at 2021-11-09T18:46:23.443
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+
+# Created at 2021-11-09T18:46:23.443
+WARNING: All illegal access operations will be denied in a future release
+
+# Created at 2021-11-09T18:46:23.476
+WARNING: An illegal reflective access operation has occurred
+
+# Created at 2021-11-09T18:46:23.476
+WARNING: Illegal reflective access by com.google.inject.internal.cglib.core.$ReflectUtils$1 (file:/Users/tapan.khimani/.m2/repository/com/google/inject/guice/4.2.2/guice-4.2.2.jar) to method java.lang.ClassLoader.defineClass(java.lang.String,byte[],int,int,java.security.ProtectionDomain)
+
+# Created at 2021-11-09T18:46:23.476
+WARNING: Please consider reporting this to the maintainers of com.google.inject.internal.cglib.core.$ReflectUtils$1
+
+# Created at 2021-11-09T18:46:23.476
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+
+# Created at 2021-11-09T18:46:23.477
+WARNING: All illegal access operations will be denied in a future release
+
+# Created at 2021-11-09T18:46:23.493
+WARNING: An illegal reflective access operation has occurred
+
+# Created at 2021-11-09T18:46:23.493
+WARNING: Illegal reflective access by com.google.inject.internal.cglib.core.$ReflectUtils$1 (file:/Users/tapan.khimani/.m2/repository/com/google/inject/guice/4.2.2/guice-4.2.2.jar) to method java.lang.ClassLoader.defineClass(java.lang.String,byte[],int,int,java.security.ProtectionDomain)
+
+# Created at 2021-11-09T18:46:23.493
+WARNING: Please consider reporting this to the maintainers of com.google.inject.internal.cglib.core.$ReflectUtils$1
+
+# Created at 2021-11-09T18:46:23.494
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+
+# Created at 2021-11-09T18:46:23.494
+WARNING: All illegal access operations will be denied in a future release
+
