@@ -16,7 +16,7 @@ public class lambdaTestDemo_pagination extends PageObject {
 	@FindBy(css = "#maxRows > option:nth-child(3)")
 	WebElementFacade nbOfRows;
 
-	@FindBy(css = "#__next > div.wrapper > section.mt-50 > div > div > div.w-8\\/12.smtablet\\:w-full.px-15.smtablet\\:mt-20 > div.pagination-container > nav > ul > li:nth-child(3) > span")
+	@FindBy(xpath = "//*[@id=\"__next\"]/div[1]/section[3]/div/div/div[2]/div[2]/nav/ul/li[3]/span")
 	WebElementFacade pagination;
 
 	public void pagination() throws InterruptedException {

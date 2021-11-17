@@ -106,8 +106,9 @@
     <div id="contenttop">
         <div class="middlebg">
         <span class="breadcrumbs"><a href="index.html">Home</a>
+                > Feature 
                 > <span
-                    class="truncate-60">Tests With Errors</span>
+                    class="truncate-60">Lambda Test Scenarios (Failing Tests)</span>
         </span>
         </div>
         <div class="rightbg"></div>
@@ -136,23 +137,23 @@
         <div class="middlb">
             <div class="table">
 
-                <h2>Tests With Errors</h2>
+                <h2><i class='fa fa-tags'></i> Feature: Lambda Test Scenarios (Failing Tests)</h2>
                 <table class='overview'>
                     <tr>
                         <td width="375px" valign="top">
                             <div class="test-count-summary">
                                 <div>
 
-                                1 broken test
+                                1 failing test
                                     across 1 scenario
 
                                      |
-                                        <a href="c8a926210aeff57f8aa7ea799262d4b730915a909cd5ecd6a705b1fa13bc7aa8.csv" title="Download CSV"> <i class="fa fa-download"
+                                        <a href="8d174b70b5790006255b074fb714a733f65e1f126fb62d03e13c667267f46794.csv" title="Download CSV"> <i class="fa fa-download"
                                                                                         title="Download CSV"></i></a>
 
                                     <p class="report-info"><i class="fas fa-info-circle"></i> Note that results include
-                                        data-driven scenarios containing broken test ,
-                                        which may also contain results other than broken test .</p>
+                                        data-driven scenarios containing failing test ,
+                                        which may also contain results other than failing test .</p>
 
 
 
@@ -183,10 +184,10 @@
                                                             </div>
                                                             <script>
 
-                                                                var labels = [' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', '100%', ' ', ' ', ' '];
+                                                                var labels = [' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', '100%', ' ', ' ', ' ', ' ', ' '];
                                                                 // Our series array that contains series objects or in this case series data arrays
 
-                                                                var series = [{meta: 'Passing tests (automated)', value: 0}, {meta: 'Passing tests (manual)', value: 0}, {meta: 'Pending tests (automated)', value: 0}, {meta: 'Pending tests (manual)', value: 0}, {meta: 'Ignored tests (automated)', value: 0}, {meta: 'Ignored tests (manual)', value: 0}, {meta: 'Skipped tests (automated)', value: 0}, {meta: 'Skipped tests (manual)', value: 0}, {meta: 'Failing tests (automated)', value: 0}, {meta: 'Failing tests (manual)', value: 0}, {meta: 'Broken tests (automated)', value: 1}, {meta: 'Broken tests (manual)', value: 0}, {meta: 'Compromised tests (automated)', value: 0}, {meta: 'Compromised tests (manual)', value: 0}];
+                                                                var series = [{meta: 'Passing tests (automated)', value: 0}, {meta: 'Passing tests (manual)', value: 0}, {meta: 'Pending tests (automated)', value: 0}, {meta: 'Pending tests (manual)', value: 0}, {meta: 'Ignored tests (automated)', value: 0}, {meta: 'Ignored tests (manual)', value: 0}, {meta: 'Skipped tests (automated)', value: 0}, {meta: 'Skipped tests (manual)', value: 0}, {meta: 'Failing tests (automated)', value: 1}, {meta: 'Failing tests (manual)', value: 0}, {meta: 'Broken tests (automated)', value: 0}, {meta: 'Broken tests (manual)', value: 0}, {meta: 'Compromised tests (automated)', value: 0}, {meta: 'Compromised tests (manual)', value: 0}];
 
                                                                 // As options we currently only set a static size of 300x200 px. We can also omit this and use aspect ratio containers
                                                                 // as you saw in the previous example
@@ -268,24 +269,24 @@
                                                             </tr>
                                                             <tr>
                                                                             <td colspan="3"><a
-                                                                                    href="b964a040ccee2192880812cc5de2c4d0075e3288c1b298b7dda0839367bb26be.html"><i
+                                                                                    href="59744695d511a22448e4f3f453e01ea0a48ba40763dd250f930b2adf5db72625.html"><i
                                                                                     class='fa fa-times failure-icon'></i>&nbsp;<em>Unsuccessful</em></a>
                                                                             </td>
                                                             </tr>
                                                             <tr>
-                                                                <td class="aggregate-result-count indented-error-category">
-                                                                    <i
-                                                                            class='fa fa-times-circle failure-icon'></i>&nbsp;Failed
-                                                                </td>
-                                                                <td class="automated-stats">0</td>
-                                                                <td class="automated-stats"> </td>
-                                                            <tr>
                                                                     <td class="aggregate-result-count indented-error-category">
-                                                                        <a href="c8a926210aeff57f8aa7ea799262d4b730915a909cd5ecd6a705b1fa13bc7aa8.html"><i
-                                                                                class='fa fa-exclamation-triangle error-icon'></i>&nbsp;Broken</a>
+                                                                        <a href="7a623ac60b3168591f3fbc1b29aa578f96db043bc0b74f2d17be66c20038789e.html"><i
+                                                                                class='fa fa-times-circle failure-icon'></i>&nbsp;Failed</a>
                                                                     </td>
                                                                 <td class="automated-stats">1</td>
                                                                 <td class="automated-stats">100%</td>
+                                                            <tr>
+                                                                <td class="aggregate-result-count indented-error-category">
+                                                                    <i
+                                                                            class='fa fa-exclamation-triangle error-icon'></i>&nbsp;Broken
+                                                                </td>
+                                                                <td class="automated-stats">0</td>
+                                                                <td class="automated-stats"> </td>
                                                             <tr>
                                                                 <td class="aggregate-result-count indented-error-category">
                                                                     <i
@@ -315,8 +316,8 @@
                                                         <table class="table">
                                                             <tbody>
                                                             <tr>
-                                                                <td class="error-color top-list-title">
-                                                                    <a href="f1b3cc6f6d630bceda9bfdc81605339d8de7c3a6d0bccea26cac6939076ca32c.html"><i class='fa fa-exclamation-triangle error-icon ' title='ERROR'></i> Element not interactable exception</a>
+                                                                <td class="failure-color top-list-title">
+                                                                    <a href="5dc2ab949914ea069aeeda1f2dda73d0c5fdb6dc077982712627628033736c61.html"><i class='fa fa-times-circle failure-icon ' title='FAILURE'></i> Element should be enabled exception</a>
                                                                 </td>
                                                                 <td><span
                                                                         class="badge failure-badge">1</span>
@@ -331,7 +332,7 @@
                                                             <tbody>
                                                                 <tr>
                                                                     <td class="failure-color top-list-title"><a
-                                                                            href="24b9aa9ea0d106e76d2c51af5ecaa8db345a8f1c5f8e5fd017eca4c70447d279.html">Google's Search Functionality</a>
+                                                                            href="24b9aa9ea0d106e76d2c51af5ecaa8db345a8f1c5f8e5fd017eca4c70447d279.html">Lambda Test Scenarios</a>
                                                                     </td>
                                                                     <td><span
                                                                             class="badge failure-badge">100%</span>
@@ -362,18 +363,18 @@
                                                 </tr>
                                                 </thead>
                                                 <tbody>
-                                                <tr class="scenario-result ERROR">
+                                                <tr class="scenario-result FAILURE">
                                                     <td>
-                                                            <a href="b3d5fb1cd6eec26821a040233b4e6f51d594d944576dcd6a2ab9b39c2a75f3b9.html">Google's Search Functionality</a>
+                                                            <a href="24b9aa9ea0d106e76d2c51af5ecaa8db345a8f1c5f8e5fd017eca4c70447d279.html">Lambda Test Scenarios</a>
                                                     </td>
                                                     <td>
-                                                        <a href="d722964bcff5efaba02e63ba6ee2390d655598c41ffade66b6fb19bdc1e8190d.html">Can find search results</a>
+                                                        <a href="47bb8c12ea1162a220c53032d1319c1a0998777ece01efdb4cc3b2033b75a862.html">user wants to move values from left table to right or vice-versa BootStrap</a>
                                                     </td>
                                                     <td>3</td>
-                                                    <td>18:46:25</td>
-                                                    <td>00:34</td>
-                                                    <td><i class='fa fa-exclamation-triangle error-icon ' title='ERROR'></i> <span
-                                                            style="display:none">ERROR</span></td>
+                                                    <td>19:00:15</td>
+                                                    <td>00:29</td>
+                                                    <td><i class='fa fa-times-circle failure-icon ' title='FAILURE'></i> <span
+                                                            style="display:none">FAILURE</span></td>
                                                 </tr>
                                                 </tbody>
                                             </table>

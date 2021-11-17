@@ -128,7 +128,7 @@
             <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
         </li>
     </ul>
-    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 14-11-2021 22:04</span>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 17-11-2021 19:00</span>
     <br style="clear:left"/>
 </div>
 
@@ -163,9 +163,9 @@
                 <table class="outcome-header">
                     <tr>
                         <td colspan="2" class="test-title-bar">
-                            <span class="outcome-icon"><i class='fa fa-check-circle-o success-icon fa-2x' title='SUCCESS'></i></span>
+                            <span class="outcome-icon"><i class='fa fa-times-circle failure-icon fa-2x' title='FAILURE'></i></span>
                             <span class="test-case-title">
-                                <span class="success-color">user wants to move values from left table to right or vice-versa BootStrap
+                                <span class="failing-color">user wants to move values from left table to right or vice-versa BootStrap
                                     <span class="related-issue-title"></span>
                                 </span>
                             </span>
@@ -182,11 +182,49 @@
 
     <div id="beforetable"></div>
     <div id="contenttilttle">
+            <div class="screenshotFailure panel panel-danger">
+
+    <div style="display:block">
+        <div class="table">
+            <div class="row">
+                <div class="col-sm-10" style="padding-left:1.5em; padding-top:0.5em; padding-bottom:0.5em;">
+                    <span class="error-message error-message-title">Element should be enabled exception: Expected enabled element was not enabledBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'System info: host: 'TapanKNew.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15', java.version: '13.0.1'Driver info: driver.version: unknown</span>
+                </div>
+                <div class="col-sm-2">
+                    <a class="btn btn-warning details-button" data-toggle="collapse" href="#stacktraceModal-overall""
+                       role="button" aria-expanded="false" aria-controls="multiCollapseExample1"><i class="far fa-eye"></i> More details</a>
+                </div>
+             </div>
+        </div>
+    <div>
+
+    <!-- Details Section -->
+    <div class="row stacktrace-details">
+      <div class="col">
+        <div class="collapse multi-collapse" id="stacktraceModal-overall">
+            <div class="card">
+                <div class="card-header">
+                    <h4>net.thucydides.core.webdriver.exceptions.ElementShouldBeEnabledException </h4>
+                </div>
+                <div class="card-body">
+                    <div>
+                        <pre>com.lambdatest.cucumber.pages.lambdaTestDemo_bootStrapListBox.moveValues(lambdaTestDemo_bootStrapListBox.java:46)<br />com.lambdatest.cucumber.steps.lambdaTestDemoSteps_bootStapListBox.selectValues(lambdaTestDemoSteps_bootStapListBox.java:21)<br />✽.user select values that need to move(src/test/resources/features/single.feature:50)<br /></pre>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+                <div class="panel-body">
+                    <a href="pagesource18311888277822716667.html.txt" target="_blank" class="btn btn-info">HTML Source</a>
+                </div>
+            </div>
         <div class="slider-wrapper theme-default">
             <div id="slider">
                 <img src="d4db171a1d664bdccede03e8d899e71aa2387349387b7f3d7ebb0fe7542860aa.png" title=" When user reaches the bootstrap list box URL" width="1904"/>
-                <img src="16068b10f1fff49394a03625ddabfaa0c58a5423c75e78cd0657531a194722ee.png" title=" And user select values that need to move" width="1904"/>
-                <img src="16068b10f1fff49394a03625ddabfaa0c58a5423c75e78cd0657531a194722ee.png" title=" Then values should be moved: <span class='success-color'>SUCCESS</span>" width="1904"/>
+                <img src="b9e229182c2cece068eaa9b0fa9a05ca0263889e04d5e4e5569de597d2b44944.png" title=" And user select values that need to move: <span class='failing-color'>FAILURE</span>" width="1904"/>
             </div>
         </div>
 

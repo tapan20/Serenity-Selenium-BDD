@@ -1,4 +1,14 @@
 -------------------------------------------------------------------------------
 Test set: com.lambdatest.cucumber.SingleTest
 -------------------------------------------------------------------------------
-Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 408.792 s - in com.lambdatest.cucumber.SingleTest
+Tests run: 11, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 444.534 s <<< FAILURE! - in com.lambdatest.cucumber.SingleTest
+user wants to move values from left table to right or vice-versa BootStrap(Lambda Test Scenarios)  Time elapsed: 31.949 s  <<< ERROR!
+net.thucydides.core.webdriver.exceptions.ElementShouldBeEnabledException: Expected enabled element was not enabled
+Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for lambdaTestDemo_bootStrapListBox.value3 to be enabled (tried for 5 second(s) with 100 milliseconds interval)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+Timed out after 5 seconds. Element not found
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'TapanKNew.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15', java.version: '13.0.1'
+Driver info: driver.version: unknown
+

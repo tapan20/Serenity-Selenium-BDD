@@ -10,16 +10,16 @@ import net.thucydides.core.pages.PageObject;
 
 public class lambdaTestDemo_jQueryListBox extends PageObject {
 
-	@FindBy(css = "button[class='pAddAll bg-gray-900 text-white block w-full text-center text-size-14 py-5 mt-5 hover:bg-lambda-900 rounded']")
+	@FindBy(xpath = "//*[@id=\"pickList\"]/div/div[2]/button[2]")
 	WebElementFacade addAll_btn;
 
-	@FindBy(css = "button[class='pRemoveAll bg-gray-900 text-white block w-full text-center text-size-14 py-5 mt-5 mb-15 hover:bg-lambda-900 rounded']")
+	@FindBy(xpath = "//*[@id=\"pickList\"]/div/div[2]/button[4]")
 	WebElementFacade removeAll_btn;
 
-	@FindBy(css = "button[class='pAdd bg-gray-900 text-white block w-full text-center text-size-14 py-5 mt-15 hover:bg-lambda-900 rounded']")
+	@FindBy(xpath = "//*[@id=\"pickList\"]/div/div[2]/button[1]")
 	WebElementFacade add_btn;
 
-	@FindBy(css = "button[class='pRemove bg-gray-900 text-white block w-full text-center text-size-14 py-5 mt-5 hover:bg-lambda-900 rounded']")
+	@FindBy(xpath = "//*[@id=\"pickList\"]/div/div[2]/button[3]")
 	WebElementFacade remove_btn;
 
 	@FindBy(css = "#pickList > div > div:nth-child(1) > select > option:nth-child(1)")

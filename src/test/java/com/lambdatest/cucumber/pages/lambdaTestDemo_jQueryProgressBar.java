@@ -13,10 +13,10 @@ public class lambdaTestDemo_jQueryProgressBar extends PageObject {
 	@FindBy(css = "#downloadButton")
 	WebElementFacade startDownload_btn;
 
-	@FindBy(css = "body > div.ui-dialog.ui-corner-all.ui-widget.ui-widget-content.ui-front.ui-dialog-buttons.ui-draggable > div.ui-dialog-buttonpane.ui-widget-content.ui-helper-clearfix > div > button")
+	@FindBy(xpath = "/html/body/div[2]/div[3]/div/button")
 	WebElementFacade cancelDownload_Btn;
 
-	@FindBy(css = "body > div.ui-dialog.ui-corner-all.ui-widget.ui-widget-content.ui-front.ui-dialog-buttons.ui-draggable > div.ui-dialog-buttonpane.ui-widget-content.ui-helper-clearfix > div > button")
+	@FindBy(xpath = "/html/body/div[2]/div[3]/div/button")
 	WebElementFacade close_btn;
 
 	public void startProgress() throws InterruptedException {

@@ -65,3 +65,26 @@ Know how many concurrent sessions needed by using our [Concurrency Test Calculat
 * [SeleniumHQ Documentation](http://www.seleniumhq.org/docs/)
 * [Serenity Documentation](http://thucydides.info/docs/serenity-staging/)
 * [LambdaTest Documentation](https://www.lambdatest.com/support/docs/getting-started-with-lambdatest-automation/)
+
+
+## Code Walkthrough
+* Package com.lambdatest.cucumber.pages
+This package is the core of the all the test cases, what a particular method does, is quoted here .
+
+* Package com.lambdatest.cucumber.steps
+This package contains all the methods that needs to be executed.
+
+* Package com.lambdatest.cucumber
+This packages contains all the 
+
+* serenity.properties
+This files contains the basic details of the user where the test needs to be executed, basically your lambdatest access key .
+
+* pom.xml
+This file contains all the dependencies used .
+
+* single.feature file
+This is our main feature file, based on the features the test cases will be executed.
+
+
+

@@ -10,16 +10,16 @@ import net.thucydides.core.pages.PageObject;
 
 public class lambdaTestDemo_bootStrapModals extends PageObject {
 
-	@FindBy(css = "#__next > section.mt-50 > div > div > div.w-8\\/12.smtablet\\:w-full > div:nth-child(3) > button")
+	@FindBy(xpath = "//*[@id=\"__next\"]/section[4]/div/div/div[2]/div[2]/button")
 	WebElementFacade mulipleModals_btn;
 
-	@FindBy(css = "#myMultiModal > div > div > div.modal-body > button")
+	@FindBy(xpath = "//*[@id=\"myMultiModal\"]/div/div/div[2]/button")
 	WebElementFacade launchModal_btn;
 
-	@FindBy(css = "#mySecondModal > div > div > div.modal-footer > button.btn.btn-dark.selenium_btn.hover\\:bg-lambda-900.hover\\:border-lambda-900")
+	@FindBy(xpath = "//*[@id=\"mySecondModal\"]/div/div/div[3]/button[2]")
 	WebElementFacade saveChanges1;
 
-	@FindBy(css = "#myMultiModal > div > div > div.modal-footer > button.btn.btn-dark.selenium_btn.hover\\:bg-lambda-900.hover\\:border-lambda-900")
+	@FindBy(xpath = "//*[@id=\"myMultiModal\"]/div/div/div[3]/button[2]")
 	WebElementFacade saveChanges2;
 
 	public void bootStrapModals() throws InterruptedException {
