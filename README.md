@@ -75,7 +75,7 @@ This package is the core of the all the test cases, what a particular method doe
 This package contains all the methods that needs to be executed.
 
 * Package com.lambdatest.cucumber
-This packages contains all the 
+This packages contains all the browsers info
 
 * serenity.properties
 This files contains the basic details of the user where the test needs to be executed, basically your lambdatest access key .
